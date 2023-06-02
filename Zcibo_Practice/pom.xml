@@ -22,7 +22,7 @@
  
  <profiles>
  <profile>
- <id>smokeId</id>
+ <id>smokeId1</id>
  <build>
   <plugins>
       <plugin>
