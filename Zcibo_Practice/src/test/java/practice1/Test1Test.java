@@ -11,17 +11,19 @@ public class Test1Test {
 	@Test
 	public void m1() {
 		
-		String BROWSER = System.getProperty("Browser");
-		String URL = System.getProperty("url");
-		
+		// String BROWSER = System.getProperty("Browser");
+		// String URL = System.getProperty("url");
+		String BROWSER="Chrome";
 		 
 		 if(BROWSER.equalsIgnoreCase("Chrome")) 
 		 {
 			
-			 driver=new ChromeDriver();
+			 //driver=new ChromeDriver();
+			 System.out.println("it will inside");
 	 }else
 	 {
-		 driver=new FirefoxDriver();
+		 System.out.println("it will not inside");
+		// driver=new FirefoxDriver();
 	 } 
 		
 		
